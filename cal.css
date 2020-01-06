@@ -1,0 +1,260 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosansscsliced.css);
+
+@page {
+    size: A4;
+    margin: 0
+}
+
+body {
+    font-family: 'Space Mono', monospace, 'Noto Sans SC Sliced';
+    font-feature-settings: "liga" 0;
+    font-size: 5mm;
+}
+
+.monthly h1 {
+    text-align: center;
+}
+
+.monthly table {
+    border-spacing:0;
+    border-collapse: collapse;
+    margin-top: 30mm;
+}
+
+.monthly table td {
+    width: 24mm;
+    font-size: 1.6em;
+    padding: 4mm;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+.monthly table tr:first-child td {
+    font-size: 1.2em;
+    padding-bottom: 20mm;
+}
+
+.monthly table td:first-child,
+.monthly table td:last-child {
+    color: #cc0000;
+}
+
+.monthly table td .lunar {
+    font-size: 0.5em;
+}
+
+.page {
+    width: 210mm;
+    height: 297mm;
+    padding: 20mm;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.page.punched {
+    padding-left: 25mm;
+    padding-right: 15mm;
+}
+
+.page.punched:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 10mm;
+    height: 10mm;
+    top: 3mm;
+    left: 6mm;
+    border-radius: 5mm;
+    box-shadow: 0 10mm 0 #ccc,
+                0 50mm 0 #ccc,
+                0 90mm 0 #ccc;
+}
+
+.page.punched:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 10mm;
+    height: 10mm;
+    top: 184mm;
+    left: 6mm;
+    border-radius: 5mm;
+    box-shadow: 0 10mm 0 #ccc,
+                0 50mm 0 #ccc,
+                0 90mm 0 #ccc;
+}
+
+.page h1.title {
+    margin-top: 50mm;
+    font-size: 10mm;
+    text-align: center;
+}
+
+.page .red {
+    color: #cc0000;
+}
+
+.page h1 {
+    font-size: 3.2em;
+    margin: 0;
+}
+
+.page .main-date {
+    position: absolute;
+    top: 50mm;
+    right: 20mm;
+    font-size: 2em;
+}
+
+.page.punched .main-date {
+    right: 15mm;
+}
+
+.page .meta {
+    position: absolute;
+    top: 65mm;
+    right: 20mm;
+    font-size: 1.4em;
+}
+
+.page.punched .meta {
+    right: 15mm;
+}
+
+.page .main-lunar {
+    font-size: 0.8em;
+}
+
+.page pre {
+    margin-top: 30mm!important;
+    margin-left: 10mm!important;
+    white-space: pre-wrap!important;
+    word-break: break-word!important;
+    font-size: 0.8em!important;
+    background: transparent!important;
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+}
+
+.page code {
+    background: transparent!important;
+    white-space: pre-wrap!important;
+    word-break: break-word!important;
+    padding: 0!important;
+}
+
+.page pre, .page code {
+    color: black;
+    text-shadow: none!important;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    text-align: left;
+    word-spacing: normal;
+    word-wrap: normal;
+    line-height: 1.4em!important;
+    tab-size: 4;
+    hyphens: none;
+}
+
+.page .description {
+    position: absolute;
+    width: 130mm;
+    bottom: 70mm;
+    color: #666;
+    text-align: justify;
+    font-size: 0.8em;
+}
+
+.page .qr {
+    position: absolute;
+    bottom: 65mm;
+    right: 20mm;
+}
+
+.page .hide_qr .description {
+    width: 170mm;
+}
+
+.page .hide_qr .qr {
+    display: none;
+}
+
+.page.punched .qr {
+    right: 15mm;
+}
+
+.page .qr img {
+    width: 30mm;
+    height: 30mm;
+}
+
+.page ul.date {
+    width: 174.5mm;
+    height: 41mm;
+    position: absolute;
+    left: 17.5mm;
+    bottom: 20mm;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    box-sizing: border-box;
+    border-top: 0.5mm dotted gray;
+    border-bottom: 0.5mm dotted gray;
+}
+
+.page.punched ul.date {
+    left: 22.5mm;
+}
+
+.page ul.date li {
+    list-style: none;
+    display: inline-block;
+    width: 29mm;
+    height: 40mm;
+    border-left: 0.5mm dotted gray;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.page ul.date li:last-child {
+    width: 29.5mm;
+    border-right: 0.5mm dotted gray;
+}
+
+.page ul.date li .week {
+    font-size: 8mm;
+    line-height: 16mm;
+    text-align: center;
+    font-weight: bold;
+}
+
+.page ul.date li .date {
+    font-size: 5mm;
+    line-height: 10mm;
+    text-align: center;
+}
+
+.page ul.date li .lunar {
+    font-size: 5mm;
+    line-height: 10mm;
+    text-align: center;
+}
+
+@media print {
+    html, body {
+      width: 210mm;
+      height: 297mm;
+    }
+    
+    .page {
+        margin: 0;
+        border: initial;
+        border-radius: initial;
+        width: initial;
+        min-height: initial;
+        box-shadow: initial;
+        background: initial;
+        page-break-after: always;
+    }
+}

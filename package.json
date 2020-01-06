@@ -1,0 +1,11 @@
+{
+  "name": "calendar",
+  "version": "1.0.0",
+  "author": "Zhe Li",
+  "dependencies": {
+    "left-pad": "^1.2.0",
+    "lunar-calendar": "^0.1.4",
+    "solarlunar": "^2.0.1",
+    "sync-request": "^4.1.0"
+  }
+}

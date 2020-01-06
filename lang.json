@@ -1,0 +1,266 @@
+[{
+    "lang": "C",
+    "class": "c",
+    "desc": "C语言",
+    "code": "c"
+}, {
+    "lang": "C++",
+    "class": "cpp",
+    "desc": "C++",
+    "code": "cpp"
+}, {
+    "lang": "Java",
+    "class": "java",
+    "desc": "Java",
+    "code": "java"
+}, {
+    "lang": "C#",
+    "class": "csharp",
+    "desc": "C♯",
+    "code": "cs"
+}, {
+    "lang": "Python",
+    "class": "python",
+    "desc": "Python",
+    "code": "py"
+}, {
+    "lang": "TypeScript",
+    "class": "typescript",
+    "desc": "TypeScript",
+    "code": "ts"
+}, {
+    "lang": "PHP",
+    "class": "php",
+    "desc": "PHP",
+    "code": "php"
+}, {
+    "lang": "JavaScript",
+    "class": "javascript",
+    "desc": "JavaScript",
+    "code": "js"
+}, {
+    "lang": "Visual Basic",
+    "class": "vbnet",
+    "desc": "Visual_Basic",
+    "code": "vb"
+}, {
+    "lang": "Perl",
+    "class": "perl",
+    "desc": "Perl",
+    "code": "pl"
+}, {
+    "lang": "Ruby",
+    "class": "ruby",
+    "desc": "Ruby",
+    "code": "rb"
+}, {
+    "lang": "CoffeeScript",
+    "class": "coffeescript",
+    "desc": "CoffeeScript",
+    "code": "coffee"
+}, {
+    "lang": "CSS",
+    "class": "css",
+    "desc": "层叠样式表",
+    "code": "css"
+}, {
+    "lang": "R",
+    "class": "r",
+    "desc": "R语言",
+    "code": "r"
+}, {
+    "lang": "Delphi",
+    "class": "pascal",
+    "desc": "Delphi",
+    "code": "pas"
+}, {
+    "lang": "Swift",
+    "class": "swift",
+    "desc": "Swift_(程式語言)",
+    "code": "swift"
+}, {
+    "lang": "MATLAB",
+    "class": "matlab",
+    "desc": "MATLAB",
+    "code": "m"
+}, {
+    "lang": "Go",
+    "class": "go",
+    "desc": "Go",
+    "code": "go"
+}, {
+    "lang": "Objective-C",
+    "class": "objectivec",
+    "desc": "Objective-C",
+    "code": "oc.m"
+}, {
+    "lang": "SQL",
+    "class": "sql",
+    "desc": "SQL",
+    "code": "sql"
+}, {
+    "lang": "HTML",
+    "class": "html",
+    "desc": "HTML",
+    "code": "html"
+}, {
+    "lang": "Dart",
+    "class": "dart",
+    "desc": "Dart",
+    "code": "dart"
+}, {
+    "lang": "D",
+    "class": "d",
+    "desc": "D語言",
+    "code": "d"
+}, {
+    "lang": "Ada",
+    "class": "ada",
+    "desc": "Ada",
+    "code": "ada"
+}, {
+    "lang": "Erlang",
+    "class": "erlang",
+    "desc": "Erlang",
+    "code": "erl"
+}, {
+    "lang": "Lisp",
+    "class": "lisp",
+    "desc": "LISP",
+    "code": "lisp"
+}, {
+    "lang": "Lua",
+    "class": "lua",
+    "desc": "Lua",
+    "code": "lua"
+}, {
+    "lang": "F#",
+    "class": "fsharp",
+    "desc": "F♯",
+    "code": "fs"
+}, {
+    "lang": "Verilog",
+    "class": "verilog",
+    "desc": "Verilog",
+    "code": "v"
+}, {
+    "lang": "PowerShell",
+    "class": "powershell",
+    "desc": "Windows_PowerShell",
+    "code": "ps1"
+}, {
+    "lang": "ActionScript",
+    "class": "actionscript",
+    "desc": "ActionScript",
+    "code": "as"
+}, {
+    "lang": "Groovy",
+    "class": "groovy",
+    "desc": "Groovy",
+    "code": "groovy"
+}, {
+    "lang": "Julia",
+    "class": "julia",
+    "desc": "Julia_(编程语言)",
+    "code": "jl"
+}, {
+    "lang": "AppleScript",
+    "class": "applescript",
+    "desc": "AppleScript",
+    "code": "scpt"
+}, {
+    "lang": "Bash",
+    "class": "bash",
+    "desc": "Bash",
+    "code": "sh"
+}, {
+    "lang": "Assembly Language",
+    "class": "avrasm",
+    "desc": "汇编语言",
+    "code": "s"
+}, {
+    "lang": "Tcl",
+    "class": "tcl",
+    "desc": "Tcl",
+    "code": "tcl"
+}, {
+    "lang": "TeX",
+    "class": "latex",
+    "desc": "TeX",
+    "code": "tex"
+}, {
+    "lang": "Batch",
+    "class": "cmd",
+    "desc": "批处理",
+    "code": "cmd"
+}, {
+    "lang": "Makefile",
+    "class": "makefile",
+    "desc": "Make",
+    "code": "mk"
+}, {
+    "lang": "SAS",
+    "class": "sas",
+    "desc": "SAS语言",
+    "code": "sas"
+}, {
+    "lang": "Scala",
+    "class": "scala",
+    "desc": "Scala",
+    "code": "scala"
+}, {
+    "lang": "AWK",
+    "class": "awk",
+    "desc": "Awk",
+    "code": "awk"
+}, {
+    "lang": "Excel Macro",
+    "class": "excel",
+    "desc": "Microsoft_Excel",
+    "code": "xls"
+}, {
+    "lang": "Clojure",
+    "class": "clojure",
+    "desc": "Clojure",
+    "code": "clj"
+}, {
+    "lang": "Prolog",
+    "class": "prolog",
+    "desc": "Prolog",
+    "code": "pro"
+}, {
+    "lang": "Vala",
+    "class": "vala",
+    "desc": "Vala",
+    "code": "vala"
+}, {
+    "lang": "Vim Script",
+    "class": "vim",
+    "desc": "Vim",
+    "code": "vim"
+}, {
+    "lang": "AutoIt",
+    "class": "autoit",
+    "desc": "AutoIt",
+    "code": "autoit"
+}, {
+    "lang": "Elixir",
+    "class": "elixir",
+    "desc": "Elixir",
+    "code": "ex"
+}, {
+    "lang": "Fortran",
+    "class": "fortran",
+    "desc": "Fortran",
+    "code": "fortran"
+}, {
+    "lang": "Haskell",
+    "class": "haskell",
+    "desc": "Haskell",
+    "code": "hs"
+}, {
+    "lang": "Haxe",
+    "class": "haxe",
+    "desc": "Haxe",
+    "code": "hx"
+}]
