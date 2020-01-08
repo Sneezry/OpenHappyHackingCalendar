@@ -10,6 +10,8 @@ Calendar built from this project is different from the version Turing published,
 
 To run this project, Node (<https://nodejs.org/en/download/>) is required.
 
+注意：请确保编译环境在系统层面上可以访问维基百科。
+
 ## Get the code
 
 ```
